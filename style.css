@@ -2,7 +2,11 @@ body
 {
 	background-image: url("background.jpg");
 }
-
+@font-face 
+{
+	font-family : 'MaPolice';
+	src : url('AlexBrush-Regular.ttf');
+}
 h1
 {
 	font-family: MaPolice;
