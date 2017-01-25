@@ -1,0 +1,79 @@
+
+
+h1
+{
+	font-family: MaPolice;
+	text-align:center;
+	color:green;
+}
+
+p
+{
+	text-align: center;
+}
+em
+{
+	font-weight: bold;
+}
+
+h2
+{
+	color: brown;
+}
+
+a img
+{
+	box-shadow: 1px 1px 1px 1px black;
+	/*float: right; */
+	border: 2px black solid;	
+}
+
+
+header
+{
+	display:flex;
+	justify-content: space-between;
+}
+.element:nth-child(1) /*  je sélectionne le premier élement de mon header*/
+{
+	/* flex: 1; */  
+
+	/* Pour rester dans l'énoncé je met la taille en % meme si je 
+	prefere travailler avec flexbox... */
+
+	width: 100%; /* comme cela, il adapte sa taille et place l'image à droite grace à flex */
+}
+
+
+nav
+{
+	height: 100%;
+	width: 5%; 
+	border-radius: 4px 4px 4px 4px;
+	background-color: grey;
+	box-shadow: 1px 1px 1px 1px black;
+	float:left; 
+}
+
+article
+{
+	display:flex;
+	justify-content: center;
+	padding-left: 10px;  /* histoire de ne pas être collé au liseré */
+}
+
+
+@media screen and (max-width: 1024px)
+{
+
+	
+    /* 
+	Version mobile
+    Rédigez vos propriétés CSS ici */
+}
+
+
+
+
+
+
